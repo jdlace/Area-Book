@@ -14,8 +14,8 @@
 		9B967C981A015FB700DBC299 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B967C961A015FB700DBC299 /* LaunchScreen.xib */; };
 		9B967CA41A015FB700DBC299 /* Area_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B967CA31A015FB700DBC299 /* Area_BookTests.swift */; };
 		9B967CAE1A01602000DBC299 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B967CAD1A01602000DBC299 /* CustomTabBarController.swift */; };
-		9B967CB41A0160CE00DBC299 /* AreaBookDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B967CB31A0160CE00DBC299 /* AreaBookDataSource.swift */; };
-		9B967CB51A0160CE00DBC299 /* AreaBookDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B967CB31A0160CE00DBC299 /* AreaBookDataSource.swift */; };
+		9B967CB41A0160CE00DBC299 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B967CB31A0160CE00DBC299 /* DataModel.swift */; };
+		9B967CB51A0160CE00DBC299 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B967CB31A0160CE00DBC299 /* DataModel.swift */; };
 		9BCA73801A03473E00BFF962 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA737F1A03473E00BFF962 /* MapViewController.swift */; };
 		9BCA73811A03473E00BFF962 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA737F1A03473E00BFF962 /* MapViewController.swift */; };
 		9BCA73831A03475B00BFF962 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA73821A03475B00BFF962 /* TableViewController.swift */; };
@@ -48,7 +48,7 @@
 		9B967CA21A015FB700DBC299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B967CA31A015FB700DBC299 /* Area_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area_BookTests.swift; sourceTree = "<group>"; };
 		9B967CAD1A01602000DBC299 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
-		9B967CB31A0160CE00DBC299 /* AreaBookDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaBookDataSource.swift; sourceTree = "<group>"; };
+		9B967CB31A0160CE00DBC299 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		9BCA737F1A03473E00BFF962 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9BCA73821A03475B00BFF962 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9BCA73851A03476100BFF962 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				9BCA73881A034B1E00BFF962 /* Member_old.swift */,
-				9B967CB31A0160CE00DBC299 /* AreaBookDataSource.swift */,
+				9B967CB31A0160CE00DBC299 /* DataModel.swift */,
 				9B967C8C1A015FB700DBC299 /* Area_Book.xcdatamodeld */,
 			);
 			name = CoreData;
@@ -272,7 +272,7 @@
 				9BCA73861A03476100BFF962 /* DetailViewController.swift in Sources */,
 				9B967C8B1A015FB700DBC299 /* AppDelegate.swift in Sources */,
 				9B967CAE1A01602000DBC299 /* CustomTabBarController.swift in Sources */,
-				9B967CB41A0160CE00DBC299 /* AreaBookDataSource.swift in Sources */,
+				9B967CB41A0160CE00DBC299 /* DataModel.swift in Sources */,
 				9B967C8E1A015FB700DBC299 /* Area_Book.xcdatamodeld in Sources */,
 				9BCA73891A034B1E00BFF962 /* Member_old.swift in Sources */,
 			);
@@ -285,7 +285,7 @@
 				9BCA73811A03473E00BFF962 /* MapViewController.swift in Sources */,
 				9BCA738A1A034B1E00BFF962 /* Member_old.swift in Sources */,
 				9BCA73841A03475B00BFF962 /* TableViewController.swift in Sources */,
-				9B967CB51A0160CE00DBC299 /* AreaBookDataSource.swift in Sources */,
+				9B967CB51A0160CE00DBC299 /* DataModel.swift in Sources */,
 				9BCA73871A03476100BFF962 /* DetailViewController.swift in Sources */,
 				9B967CA41A015FB700DBC299 /* Area_BookTests.swift in Sources */,
 			);

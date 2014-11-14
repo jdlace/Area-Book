@@ -1,18 +1,21 @@
 //
-//  AreaBookDataSource.swift
+//  DataModel.swift
 //  Area Book
 //
 //  Created by James Schultz on 10/29/14.
 //  Copyright (c) 2014 Blue Boxen, LLC. All rights reserved.
 //
 
-import UIKit
 import CoreData
 
-class AreaBookDataSource: NSObject {
+class DataModel: NSObject {
    
-    class func sharedDataSource() -> AreaBookDataSource {
-        return areaBookSingletonGlobal
+    class var sharedInstance: DataModel {
+        struct Singleton {
+            static let instance = DataModel()
+        }
+        
+        return Singleton.instance
     }
     
     // MARK: - Core Data stack
@@ -43,7 +46,7 @@ class AreaBookDataSource: NSObject {
             dict[NSLocalizedDescriptionKey] = "Failed to initialize the application's saved data"
             dict[NSLocalizedFailureReasonErrorKey] = failureReason
             dict[NSUnderlyingErrorKey] = error
-            error = NSError(domain: "YOUR_ERROR_DOMAIN", code: 9999, userInfo: dict)
+            error = NSError(domain: "com.area_book.error", code: 9999, userInfo: dict)
             // Replace this with code to handle the error appropriately.
             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
             NSLog("Unresolved error \(error), \(error!.userInfo)")
@@ -78,5 +81,3 @@ class AreaBookDataSource: NSObject {
         }
     }
 }
-
-let areaBookSingletonGlobal = AreaBookDataSource()
