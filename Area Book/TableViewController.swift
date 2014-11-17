@@ -1,6 +1,6 @@
 //
-//  DirectoryTableViewController.swift
-//  MemberDirectory
+//  TableViewController.swift
+//  Area Book
 //
 //  Created by James Schultz on 9/26/14.
 //  Copyright (c) 2014 Blue Boxen, LLC. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  Member.swift
-//  MemberDirectory
+//  Area Book
 //
 //  Created by James Schultz on 9/27/14.
 //  Copyright (c) 2014 Blue Boxen, LLC. All rights reserved.
