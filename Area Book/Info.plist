@@ -22,6 +22,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationUsageDescription</key>
+	<string>Area Book uses your location to show nearby members</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Area Book uses your location to show nearby members</string>
 	<key>UILaunchStoryboardName</key>
 	<string>Main</string>
 	<key>UIMainStoryboardFile</key>

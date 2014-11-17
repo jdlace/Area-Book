@@ -31,6 +31,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     
     func startLocationUpdates() {
         locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
     }
     
@@ -41,6 +42,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     func configureCurrentLocation() {
+        self.mapView.showsUserLocation = true
         if let location = self.locationManager.location {
             let coordinate = location.coordinate
             let span = MKCoordinateSpanMake(0.005, 0.005)

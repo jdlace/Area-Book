@@ -17,7 +17,7 @@ class Member: NSManagedObject {
     @NSManaged var telephone: String
     
     class func member() -> Member {
-        var member = NSEntityDescription.insertNewObjectForEntityForName("Member", inManagedObjectContext: AreaBookDataSource.sharedDataSource().managedObjectContext!) as Member
+        var member = NSEntityDescription.insertNewObjectForEntityForName("Member", inManagedObjectContext: DataModel.sharedInstance.managedObjectContext!) as Member
         return member
     }
     

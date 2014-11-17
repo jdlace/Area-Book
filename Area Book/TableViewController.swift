@@ -88,7 +88,7 @@ class TableViewController: UITableViewController, NSFetchedResultsControllerDele
             return _fetchedResultsController!
             }
             
-            let managedObjectContext = AreaBookDataSource.sharedDataSource().managedObjectContext!
+            let managedObjectContext = DataModel.sharedInstance.managedObjectContext!
             let fetchRequest = NSFetchRequest()
             // Edit the entity name as appropriate.
             let entity = NSEntityDescription.entityForName("Member", inManagedObjectContext: managedObjectContext)
